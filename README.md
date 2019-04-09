@@ -16,3 +16,4 @@ Python scrapper.py &
 
 Note: Make sure to run this script again when you reboot your os.
 
+![image info](/image_asset/Screenshot%202019-04-10%20at%205.08.30%20AM.png)

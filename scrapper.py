@@ -39,7 +39,7 @@ def movie_poller():
     print (list_of_movies)
 
 
-    if target_title in list_of_movies:
+    if target_title not in list_of_movies:
         pymsgbox.alert(target_title + " is here. Book your tickets now", 'Title')
     print ("searching in \n")
     for j in sliders:
