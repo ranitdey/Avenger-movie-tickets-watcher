@@ -15,3 +15,4 @@ Python scrapper.py &
 ``
 
 Note: Make sure to run this script again when you reboot your os.
+
