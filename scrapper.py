@@ -38,7 +38,7 @@ def movie_poller(running_on_server=False):
     driver.get("https://in.bookmyshow.com/bengaluru")
 
     target_title = "Avengers: Endgame"
-    if os.environ('TARGET_TITLE') != '':
+    if os.environ['TARGET_TITLE'] != '':
         target_title = os.environ['TARGET_TITLE']
 
     try:
