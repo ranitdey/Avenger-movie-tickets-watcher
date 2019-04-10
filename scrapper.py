@@ -9,11 +9,11 @@ from selenium.webdriver.chrome.options import Options
 from webhook_notifier import notify_webook
 import os
 
-# Note : if running on server, these environment variables are reqd : RUNNING_ON_SERVER, ZAPIER_WEBHOOK, CHROMEDRIVER_PATH, GOOGLE_CHROME_BIN, and TARGET_TITLE
+# Note : if running on server, these environment variables are reqd : RUNNING_ON_SERVER, WEBHOOK, CHROMEDRIVER_PATH, GOOGLE_CHROME_BIN, and TARGET_TITLE
 
 def alert(message, running_on_server):
     if running_on_server:
-        webhook_url = os.environ['ZAPIER_WEBHOOK']
+        webhook_url = os.environ['WEBHOOK']
         notify_webook(webhook_url, message)
     else:
         pymsgbox.alert(message, 'BookMyShow Notifier')
