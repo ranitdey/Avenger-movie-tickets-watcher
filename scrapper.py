@@ -13,7 +13,7 @@ import os
 
 def alert(message, running_on_server):
     if running_on_server:
-        webhook_url = os.environ('ZAPIER_WEBHOOK')
+        webhook_url = os.environ['ZAPIER_WEBHOOK']
         notify_webook(webhook_url, message)
     else:
         pymsgbox.alert(message, 'BookMyShow Notifier')
@@ -23,9 +23,9 @@ def movie_poller(running_on_server=False):
     print ("starting polling")
 
     if running_on_server:
-        chrome_driver_path = os.environ('CHROMEDRIVER_PATH')
+        chrome_driver_path = os.environ['CHROMEDRIVER_PATH']
         options = webdriver.ChromeOptions()
-        options.binary_location = os.environ('GOOGLE_CHROME_BIN')
+        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
         options.add_argument('--disable-gpu')
         options.add_argument('--no-sandbox')
         options.add_argument("headless")
@@ -39,7 +39,7 @@ def movie_poller(running_on_server=False):
 
     target_title = "Avengers: Endgame"
     if os.environ('TARGET_TITLE') != '':
-        target_title = os.environ('TARGET_TITLE')
+        target_title = os.environ['TARGET_TITLE']
 
     try:
         temp = driver.find_element(By.XPATH, "//*[@href='/movies']")
