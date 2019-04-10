@@ -22,7 +22,7 @@ def alert(message, running_on_server):
 def movie_poller():
     print ("starting polling")
 
-    if os.environ['RUNNING_ON_SERVER']:
+    if 'RUNNING_ON_SERVER' in os.environ:
         running_on_server = True
         print("received running_on_server as {}".format(running_on_server))
 
@@ -42,7 +42,7 @@ def movie_poller():
     driver.get("https://in.bookmyshow.com/bengaluru")
 
     target_title = "Avengers: Endgame"
-    if os.environ['TARGET_TITLE'] != '':
+    if 'TARGET_TITLE' in os.environ:
         target_title = os.environ['TARGET_TITLE']
 
     try:
