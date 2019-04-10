@@ -25,6 +25,8 @@ def movie_poller():
     if 'RUNNING_ON_SERVER' in os.environ:
         running_on_server = True
         print("received running_on_server as {}".format(running_on_server))
+    else:
+        running_on_server = False
 
     if running_on_server:
         chrome_driver_path = os.environ['CHROMEDRIVER_PATH']
