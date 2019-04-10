@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from webhook_notifier import notify_webook
 import os
 
-# Note : if running on server, these environment variables are reqd : ZAPIER_WEBHOOK, CHROMEDRIVER_PATH, GOOGLE_CHROME_BIN, and TARGET_TITLE
+# Note : if running on server, these environment variables are reqd : RUNNING_ON_SERVER, ZAPIER_WEBHOOK, CHROMEDRIVER_PATH, GOOGLE_CHROME_BIN, and TARGET_TITLE
 
 def alert(message, running_on_server):
     if running_on_server:
@@ -19,8 +19,12 @@ def alert(message, running_on_server):
         pymsgbox.alert(message, 'BookMyShow Notifier')
 
 
-def movie_poller(running_on_server=False):
+def movie_poller():
     print ("starting polling")
+
+    if os.environ['RUNNING_ON_SERVER']:
+        running_on_server = True
+        print("received running_on_server as {}".format(running_on_server))
 
     if running_on_server:
         chrome_driver_path = os.environ['CHROMEDRIVER_PATH']
