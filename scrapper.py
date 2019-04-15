@@ -75,7 +75,7 @@ def movie_poller():
         print ("searching in \n")
         for j in sliders:
             print (j.get_attribute("href")[33:][:-11])
-            if "avengers" in j.get_attribute("href")[33:][:-11]:
+            if "avengers" in j.get_attribute("href")[33:][:-11].lower():
                 alert("{} is here. Book your tickets now".format(target_title), running_on_server)
 
     driver.close()
