@@ -1,0 +1,37 @@
+2019-04-10 12:27:07     starting polling 
+
+
+Checking for mac64 chromedriver:2.46 in cache
+Driver found in /Users/ranit/.wdm/chromedriver/2.46/mac64/chromedriver
+2019-04-10 12:27:34       Searching in 
+
+['Majili', 'Shazam!', 'Lucifer ', 'Kavacha', 'Romeo Akbar Walter', 'Dumbo', 'Super Deluxe', 'Kesari', 'How To Train Your Dragon: The Hidden World', 'Bell Bottom', 'Badla', 'The Least Of These', 'Captain Marvel', 'Natpe Thunai', 'Panchatantra', 'Madhuraraja', 'Mera Naam Shaji', 'Junglee', 'Yajamana', 'Prema Katha Chitram 2', 'Basu Paribar', 'Gully Boy', 'Luka Chuppi', 'PM Narendra Modi', 'Argentina Fans Kaattoorkadavu', 'Fighting with My Family', "Lakshmi's NTR", 'Hellboy', 'Kavaludaari', 'Chemistry of Kariyappa', 'Uriyadi 2', 'No Fathers in Kashmir', 'Chitralahari', 'Escape From Hell & House Of Dead (7D)', 'Kuppathu Raja', 'Londonalli Lambodhara', 'The Sound Story', 'Adventures of Toy Land and Roller Coaster', 'Gangs Of Madras', 'Watchman', 'Rugged', 'Five Feet Apart ', 'Terrific Dinosaur + King Kong Returns', 'Gowdru Cycle', 'Romeo Akbar Walter (Exclusively For Women)', 'Missing Boy', 'Airaa', 'Pet Sematary', 'Rajannana Maga', 'Adachanegaagi Kshamisi', 'Yada Yada Hi Dharmasya', 'Night Out', 'Forest Adventure & Wild Coaster']
+2019-04-10 12:27:34searching in 
+
+dumbo
+romeo-akbar-walter
+no-fathers-in-kashmir
+hellboy
+junglee
+dumbo
+no-fathers-in-kashmir
+2019-04-10 12:27:34     sleeping for 3 hours
+2019-04-10 12:37:34     starting polling 
+
+
+Checking for mac64 chromedriver:2.46 in cache
+Driver found in /Users/ranit/.wdm/chromedriver/2.46/mac64/chromedriver
+2019-04-10 12:37:56       Searching in 
+
+['Majili', 'Shazam!', 'Lucifer ', 'Kavacha', 'Romeo Akbar Walter', 'Dumbo', 'Super Deluxe', 'Kesari', 'Bell Bottom', 'How To Train Your Dragon: The Hidden World', 'Badla', 'The Least Of These', 'Captain Marvel', 'Natpe Thunai', 'Panchatantra', 'Madhuraraja', 'Mera Naam Shaji', 'PM Narendra Modi', 'Junglee', 'Yajamana', 'Prema Katha Chitram 2', 'Basu Paribar', 'Gully Boy', 'Hellboy', 'Luka Chuppi', 'Fighting with My Family', 'Argentina Fans Kaattoorkadavu', "Lakshmi's NTR", 'Chitralahari', 'Kavaludaari', 'Chemistry of Kariyappa', 'Uriyadi 2', 'No Fathers in Kashmir', 'Escape From Hell & House Of Dead (7D)', 'Kuppathu Raja', 'Londonalli Lambodhara', 'The Sound Story', 'Adventures of Toy Land and Roller Coaster', 'Gangs Of Madras', 'Watchman', 'Rugged', 'Five Feet Apart ', 'Terrific Dinosaur + King Kong Returns', 'Gowdru Cycle', 'Romeo Akbar Walter (Exclusively For Women)', 'Missing Boy', 'Airaa', 'Pet Sematary', 'Rajannana Maga', 'Adachanegaagi Kshamisi', 'Yada Yada Hi Dharmasya', 'Night Out', 'Forest Adventure & Wild Coaster']
+2019-04-10 12:37:56searching in 
+
+junglee
+dumbo
+romeo-akbar-walter
+no-fathers-in-kashmir
+junglee
+dumbo
+romeo-akbar-walter
+no-fathers-in-kashmir
+2019-04-10 12:37:56     sleeping for 3 hours
