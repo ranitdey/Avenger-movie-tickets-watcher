@@ -48,13 +48,13 @@ def movie_poller():
         target_title = os.environ['TARGET_TITLE']
 
     try:
-        temp = driver.find_element(By.XPATH, "//*[@href='/movies']")
+        temp = driver.find_element(By.XPATH, "//*[@href='/bengaluru/movies']")
         temp.click()
 
     except WebDriverException:
         popup = driver.find_element(By.XPATH, "//*[@class='No thanks']")
         popup.click()
-        temp = driver.find_element(By.XPATH, "//*[@href='/movies']")
+        temp = driver.find_element(By.XPATH, "//*[@href='/bengaluru/movies']")
         temp.click()
 
     time.sleep(10)
@@ -75,7 +75,7 @@ def movie_poller():
         print ("searching in \n")
         for j in sliders:
             print (j.get_attribute("href")[33:][:-11])
-            if "Avengers" in j.get_attribute("href")[33:][:-11]:
+            if "avengers" in j.get_attribute("href")[33:][:-11]:
                 alert("{} is here. Book your tickets now".format(target_title), running_on_server)
 
     driver.close()
